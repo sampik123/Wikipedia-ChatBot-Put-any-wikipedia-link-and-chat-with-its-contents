@@ -1,1 +1,2 @@
 # Wikipedia-ChatBot-Put-your-wikipedia-link-and-chat-with-your-content-
+Created a Streamlit Chatbot App for Wikipedia Question Answering. It Allow users to upload Wikipedia link to specific articles of interest and it retrieve and parse the content of the Wikipedia article corresponding to the uploaded link and enables users to ask questions related to the information in the Wikipedia article and receive accurate answers from the chatbot.
