@@ -3,6 +3,7 @@ import openai
 import requests
 from bs4 import BeautifulSoup
 import streamlit as st
+from langchain.docstore.document import Document
 from langchain.chains import LLMChain
 from langchain.llms import OpenAI
 from langchain.agents import AgentExecutor, Tool, ZeroShotAgent
