@@ -15,16 +15,11 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import VectorStore
 from langchain.vectorstores.faiss import FAISS
 import os
-from dotenv import load_dotenv
 from urllib.parse import urlparse
 from langchain.chat_models import ChatOpenAI
 import uuid  # Import the uuid module
 
-# Load environment variables from .env file
-load_dotenv()
-
-# Get the API key from the environment variables
-api = os.getenv("OPENAI_API_KEY")
+api = st.secrets['OPENAI_API_KEY']
 
 
 # Function to retrieve text content from a Wikipedia link
